@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.5.23)  13 DEC 2018 19:43
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.5.23)  13 DEC 2018 20:13
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -378,6 +378,9 @@ LaTeX Warning: Label `fig' multiply defined.
 
 LaTeX Warning: Label `fig' multiply defined.
 
+
+LaTeX Warning: Label `fig' multiply defined.
+
 )
 \openout1 = `ML_Paper.aux'.
 
@@ -463,17 +466,17 @@ G,.JBIG2,.JB2,.eps]
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 ))
-LaTeX Font Info:    Try loading font information for U+msa on input line 41.
+LaTeX Font Info:    Try loading font information for U+msa on input line 33.
 
 (/usr/local/texlive/2017/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 41.
+LaTeX Font Info:    Try loading font information for U+msb on input line 33.
 
 (/usr/local/texlive/2017/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-LaTeX Font Info:    Calculating math sizes for size <11> on input line 41.
+LaTeX Font Info:    Calculating math sizes for size <11> on input line 33.
 Missing character: There is no ‚ in font ptmr7t!
 Missing character: There is no Ä in font ptmr7t!
 Missing character: There is no ú in font ptmr7t!
@@ -497,70 +500,70 @@ Missing character: There is no ù in font ptmr7t!
 File: imgs/output_16_1.png Graphic file (type png)
 
 <use imgs/output_16_1.png>
-Package pdftex.def Info: imgs/output_16_1.png used on input line 65.
+Package pdftex.def Info: imgs/output_16_1.png used on input line 57.
 (pdftex.def)             Requested size: 254.45pt x 125.46843pt.
 
 <imgs/cost_func.png, id=3, 753.81625pt x 167.62625pt>
 File: imgs/cost_func.png Graphic file (type png)
  <use imgs/cost_func.png>
-Package pdftex.def Info: imgs/cost_func.png used on input line 74.
+Package pdftex.def Info: imgs/cost_func.png used on input line 66.
 (pdftex.def)             Requested size: 376.90721pt x 83.81291pt.
 
 <imgs/max_like.png, id=4, 861.2175pt x 410.53375pt>
 File: imgs/max_like.png Graphic file (type png)
  <use imgs/max_like.png>
-Package pdftex.def Info: imgs/max_like.png used on input line 79.
+Package pdftex.def Info: imgs/max_like.png used on input line 71.
 (pdftex.def)             Requested size: 430.6077pt x 205.26637pt.
 
 <imgs/gradient.png, id=5, 450.68375pt x 110.4125pt>
 File: imgs/gradient.png Graphic file (type png)
  <use imgs/gradient.png>
-Package pdftex.def Info: imgs/gradient.png used on input line 85.
+Package pdftex.def Info: imgs/gradient.png used on input line 77.
 (pdftex.def)             Requested size: 225.34131pt x 55.2061pt.
 
-[1{/usr/local/texlive/2017/texmf-var/fonts/map/pdftex/updmap/pdftex.map}
-
-
- <./imgs/output_16_1.png> <./imgs/cost_func.png> <./imgs/max_like.png> <./imgs/
-gradient.png>] <imgs/output_20_1.png, id=20, 371.3875pt x 268.00125pt>
+<imgs/output_20_1.png, id=6, 371.3875pt x 268.00125pt>
 File: imgs/output_20_1.png Graphic file (type png)
 
 <use imgs/output_20_1.png>
-Package pdftex.def Info: imgs/output_20_1.png used on input line 94.
+Package pdftex.def Info: imgs/output_20_1.png used on input line 86.
 (pdftex.def)             Requested size: 185.69328pt x 134.00029pt.
 
-<imgs/output_20_16.png, id=21, 371.3875pt x 268.00125pt>
+<imgs/output_20_16.png, id=7, 371.3875pt x 268.00125pt>
 File: imgs/output_20_16.png Graphic file (type png)
 
 <use imgs/output_20_16.png>
-Package pdftex.def Info: imgs/output_20_16.png used on input line 99.
+Package pdftex.def Info: imgs/output_20_16.png used on input line 91.
 (pdftex.def)             Requested size: 185.69328pt x 134.00029pt.
- <imgs/class1.png, id=22, 422.57875pt x 130.4875pt>
+ [1{/usr/local/texlive/2017/texmf-var/fonts/map/pdftex/updmap/pdftex.map}
+
+
+ <./imgs/output_16_1.png> <./imgs/cost_func.png> <./imgs/max_like.png> <./imgs/
+gradient.png> <./imgs/output_20_1.png>]
+<imgs/class1.png, id=23, 422.57875pt x 130.4875pt>
 File: imgs/class1.png Graphic file (type png)
-
-<use imgs/class1.png>
-Package pdftex.def Info: imgs/class1.png used on input line 122.
+ <use imgs/class1.png>
+Package pdftex.def Info: imgs/class1.png used on input line 114.
 (pdftex.def)             Requested size: 211.28885pt x 65.24358pt.
- <imgs/params.png, id=23, 639.38875pt x 200.75pt>
+
+<imgs/params.png, id=24, 639.38875pt x 200.75pt>
 File: imgs/params.png Graphic file (type png)
-
-<use imgs/params.png>
-Package pdftex.def Info: imgs/params.png used on input line 131.
+ <use imgs/params.png>
+Package pdftex.def Info: imgs/params.png used on input line 123.
 (pdftex.def)             Requested size: 319.69359pt x 100.37474pt.
- <imgs/class2.png, id=24, 581.17125pt x 183.68625pt>
-File: imgs/class2.png Graphic file (type png)
 
-<use imgs/class2.png>
-Package pdftex.def Info: imgs/class2.png used on input line 139.
+<imgs/class2.png, id=25, 581.17125pt x 183.68625pt>
+File: imgs/class2.png Graphic file (type png)
+ <use imgs/class2.png>
+Package pdftex.def Info: imgs/class2.png used on input line 131.
 (pdftex.def)             Requested size: 290.58492pt x 91.84288pt.
 Missing character: There is no ‚ in font ptmr7t!
 Missing character: There is no Ä in font ptmr7t!
 Missing character: There is no ô in font ptmr7t!
- <imgs/analysis1.png, id=25, 491.8375pt x 280.04625pt>
-File: imgs/analysis1.png Graphic file (type png)
 
-<use imgs/analysis1.png>
-Package pdftex.def Info: imgs/analysis1.png used on input line 159.
+<imgs/analysis1.png, id=26, 491.8375pt x 280.04625pt>
+File: imgs/analysis1.png Graphic file (type png)
+ <use imgs/analysis1.png>
+Package pdftex.def Info: imgs/analysis1.png used on input line 151.
 (pdftex.def)             Requested size: 245.91814pt x 140.02277pt.
 Missing character: There is no ‚ in font ptmr7t!
 Missing character: There is no Ä in font ptmr7t!
@@ -568,61 +571,71 @@ Missing character: There is no ô in font ptmr7t!
 Missing character: There is no ‚ in font ptmr7t!
 Missing character: There is no Ä in font ptmr7t!
 Missing character: There is no ô in font ptmr7t!
- [2 <./imgs/output_20_1.png> <./imgs/output_20_16.png> <./imgs/class1.png> <./i
-mgs/params.png> <./imgs/class2.png>]
-<imgs/heatmap.png, id=34, 440.64626pt x 314.17375pt>
+
+<imgs/heatmap.png, id=27, 440.64626pt x 314.17375pt>
 File: imgs/heatmap.png Graphic file (type png)
  <use imgs/heatmap.png>
-Package pdftex.def Info: imgs/heatmap.png used on input line 166.
+Package pdftex.def Info: imgs/heatmap.png used on input line 158.
 (pdftex.def)             Requested size: 220.32259pt x 157.08649pt.
 Missing character: There is no ‚ in font ptmr7t!
 Missing character: There is no Ä in font ptmr7t!
 Missing character: There is no ô in font ptmr7t!
 
-<imgs/img1.png, id=35, 490.83376pt x 290.08376pt>
+[2 <./imgs/output_20_16.png> <./imgs/class1.png> <./imgs/params.png> <./imgs/cl
+ass2.png> <./imgs/analysis1.png>]
+<imgs/img1.png, id=36, 490.83376pt x 290.08376pt>
 File: imgs/img1.png Graphic file (type png)
  <use imgs/img1.png>
-Package pdftex.def Info: imgs/img1.png used on input line 173.
+Package pdftex.def Info: imgs/img1.png used on input line 165.
 (pdftex.def)             Requested size: 245.41628pt x 145.04152pt.
 
-<imgs/img2.png, id=36, 481.8pt x 288.07625pt>
+<imgs/img2.png, id=37, 481.8pt x 288.07625pt>
 File: imgs/img2.png Graphic file (type png)
  <use imgs/img2.png>
-Package pdftex.def Info: imgs/img2.png used on input line 178.
+Package pdftex.def Info: imgs/img2.png used on input line 170.
 (pdftex.def)             Requested size: 240.8994pt x 144.03777pt.
 Missing character: There is no ‚ in font ptmr7t!
 Missing character: There is no Ä in font ptmr7t!
 Missing character: There is no ô in font ptmr7t!
+Missing character: There is no ‚ in font ptmr7t!
+Missing character: There is no Ä in font ptmr7t!
+Missing character: There is no ô in font ptmr7t!
 
-<imgs/dataset_table.png, id=37, 606.265pt x 321.2pt>
+<imgs/theta.png, id=38, 182.6825pt x 303.1325pt>
+File: imgs/theta.png Graphic file (type png)
+ <use imgs/theta.png>
+Package pdftex.def Info: imgs/theta.png used on input line 183.
+(pdftex.def)             Requested size: 91.34102pt x 151.56587pt.
+ [3 <./imgs/heatmap.png> <./imgs/img1.png> <./imgs/img2.png> <./imgs/theta.png>
+]
+<imgs/dataset_table.png, id=47, 606.265pt x 321.2pt>
 File: imgs/dataset_table.png Graphic file (type png)
 
 <use imgs/dataset_table.png>
-Package pdftex.def Info: imgs/dataset_table.png used on input line 211.
+Package pdftex.def Info: imgs/dataset_table.png used on input line 213.
 (pdftex.def)             Requested size: 303.13176pt x 160.59961pt.
- [3 <./imgs/analysis1.png> <./imgs/heatmap.png> <./imgs/img1.png> <./imgs/img2.
-png>]
-Underfull \hbox (badness 10000) in paragraph at lines 219--224
+
+Underfull \hbox (badness 10000) in paragraph at lines 221--226
 \OT1/ptm/m/n/10 ensemble.RandomForestClassifier(n[]estimator = 100,
  []
 
 
-Underfull \hbox (badness 1509) in paragraph at lines 219--224
+Underfull \hbox (badness 1509) in paragraph at lines 221--226
 \OT1/ptm/m/n/10 max[]depth = 2, ran-dom[]state = 0) n[]estimators stands
  []
 
-<imgs/class_report.png, id=46, 451.6875pt x 233.87375pt>
+<imgs/class_report.png, id=48, 451.6875pt x 233.87375pt>
 File: imgs/class_report.png Graphic file (type png)
 
 <use imgs/class_report.png>
-Package pdftex.def Info: imgs/class_report.png used on input line 231.
+Package pdftex.def Info: imgs/class_report.png used on input line 233.
 (pdftex.def)             Requested size: 225.84319pt x 116.93657pt.
 
-<imgs/conf_matrix.png, id=47, 383.4325pt x 148.555pt>
+<imgs/conf_matrix.png, id=49, 383.4325pt x 148.555pt>
 File: imgs/conf_matrix.png Graphic file (type png)
 
 <use imgs/conf_matrix.png>
-Package pdftex.def Info: imgs/conf_matrix.png used on input line 237.
+Package pdftex.def Info: imgs/conf_matrix.png used on input line 239.
 (pdftex.def)             Requested size: 191.71577pt x 74.27731pt.
 
 
@@ -643,10 +656,10 @@ LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 4492 strings out of 492995
- 65925 string characters out of 6132704
+ 4496 strings out of 492995
+ 66004 string characters out of 6132704
  133560 words of memory out of 5000000
- 7964 multiletter control sequences out of 15000+600000
+ 7968 multiletter control sequences out of 15000+600000
  44918 words of font info for 99 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  39i,11n,35p,910b,288s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -657,10 +670,10 @@ ve/2017/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/local/texlive/2017/te
 xmf-dist/fonts/type1/urw/times/utmbi8a.pfb></usr/local/texlive/2017/texmf-dist/
 fonts/type1/urw/times/utmr8a.pfb></usr/local/texlive/2017/texmf-dist/fonts/type
 1/urw/times/utmri8a.pfb>
-Output written on ML_Paper.pdf (4 pages, 2269349 bytes).
+Output written on ML_Paper.pdf (4 pages, 2521531 bytes).
 PDF statistics:
- 75 PDF objects out of 1000 (max. 8388607)
+ 77 PDF objects out of 1000 (max. 8388607)
  30 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
- 81 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 86 words of extra memory for PDF output out of 10000 (max. 10000000)
 

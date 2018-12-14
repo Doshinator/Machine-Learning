@@ -14,28 +14,20 @@
 }
 
 \author{\IEEEauthorblockN{1\textsuperscript{st} Saksham Saxena}
-\IEEEauthorblockA{\textit{dept. name of organization (of Aff.)} \\
-\textit{name of organization (of Aff.)}\\
-City, Country \\
-email address}
+\IEEEauthorblockA{\textit{UMass Lowell.} \\
+\textit{Machine Learning}\\}
 \and
 \IEEEauthorblockN{2\textsuperscript{nd} Rushabh Doshi}
-\IEEEauthorblockA{\textit{dept. name of organization (of Aff.)} \\
-\textit{name of organization (of Aff.)}\\
-City, Country \\
-email address}
+\IEEEauthorblockA{\textit{UMass Lowell.} \\
+\textit{Machine Learning}\\}
 \and
 \IEEEauthorblockN{3\textsuperscript{rd} Luke Beaulieu}
-\IEEEauthorblockA{\textit{dept. name of organization (of Aff.)} \\
-\textit{name of organization (of Aff.)}\\
-City, Country \\
-email address}
+\IEEEauthorblockA{\textit{UMass Lowell.} \\
+\textit{Machine Learning}\\}
 \and
 \IEEEauthorblockN{4\textsuperscript{th} Utkarsh Patel}
-\IEEEauthorblockA{\textit{dept. name of organization (of Aff.)} \\
-\textit{name of organization (of Aff.)}\\
-City, Country \\
-email address}
+\IEEEauthorblockA{\textit{UMass Lowell.} \\
+\textit{Machine Learning}\\}
 }
 
 \maketitle
@@ -86,7 +78,7 @@ Knowing the likelihood function (above) for this given problem, we look for such
 \caption{gradient descend where n is the learning rate }
 \label{fig}
 \end{figure}
-\newpage
+
 Going through different learning rates and iterations, this leaves us with an optimal line that separates the two classification of breast cancer. *n is the learning rate and it determines how big of a step we get to the minimum point in the gradient descend.  
 \noindent-Too big of a learning rate causes drastic updates which leads to divergent behavior. 
 \noindent-Too small of a learning rate and it may take a lot of iterations to get to the minimum point. 
@@ -117,7 +109,7 @@ Support Vector Machine or SVM is another method for classification problems such
 
 The methodology for SVM was to setup the data frame and use a train test 40:60 split. Then using the support vector classifier, or SVC model, I went to predict the accuracy of the model, how well it maps new data or examples for this data. 
 
-\newpage
+
 \begin{figure}[htbp]
 \centerline{\includegraphics[width=50mm,scale=0.5]{imgs/class1}}
 \caption{Prediction with no adjustment}
@@ -181,7 +173,18 @@ To fit a linear regression model, we selected those features which have a high c
 
 At this point, I ran an experiment to check whether the linear model improves based on my assumptions or not. I built the Linear Regression model using the scikit learn class. But instead of one, I made two models and compared the results. In the first model, I just selected the two features which we got from analyzing the data before. In the second model, I selected all the 13 features to see whether it has any effect on the predictions. Even though I did get a better result based on RMSE for the first model, the difference in the RMSE values wasn’t as big as I expected it to be. And this is something which I need to think about and try to understand the reasoning behind it.
 
+RMSE with 13 features: 5.50652387472
 
+RMSE with 2 features: 5.137400784702911
+
+The next step for us was to try running a polynomial Regression model on the LSTAT vs Price data as it seemed to be polynomially related to the price than linearly. That’s exactly what we found when we passed the model to a 2nd degree polynomial function written with the help of PolynomialFeatures class of scikit.preprocessing library. The RMSE value with this model came down to 3.78481988454, which was a significant decrease.
+
+\begin{figure}[htbp]
+\centerline{\includegraphics[width=25mm,scale=0.5]{imgs/theta}}
+\label{fig}
+\end{figure}
+
+Based on the theta values we got after we ran the test on all 13 features, the values of Theta that we got did seem to make a lot of sense. For example, from the picture above, it can be seen that a unit increase in the value of number of rooms would make a positive impact on the price which seems to closely reflect the price behavior in the real estate. Similarly, a higher value of Nitrous Oxide concentration or crime rate in the area would negatively affect the price. With more time in hand, I would have liked to implement an Anomaly Detection method on the dataset as it can be clearly seen that we had a few outliers in the data given to us and neglecting them would result in an even accurate model.
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
@@ -246,7 +249,8 @@ than in reference to the other features.
 
 \noindent If I had more time I would try to look into whether or not there are other datasets for different areas which have similar data. I would train a model on the other dataset to see if the model has improved results, because I think that the dataset is the real problem. That is why there is no variation based on model changes. Once I have improved the data, I would run a optimization algorithm which would vary hidden layer shape, steps, and epochs. Run several tests for each instance, average the results, then record the best performing values.
 
-
+\section{Conclusion}
+This was a great introduction to the world of machine learning and we would definitely like to continue to build data to get more practice and experience in the model that we have learned over the semester.
 
 
 \end{document}
